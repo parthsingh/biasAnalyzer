@@ -1,7 +1,7 @@
 import csv
 import os
 from openai import OpenAI
-import apikey
+
 
 
 
