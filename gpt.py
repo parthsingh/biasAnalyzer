@@ -7,7 +7,7 @@ import apikey
 
 def GPT(prompt):
 
-    client = OpenAI(api_key=apikey.API_KEY)
+    client = OpenAI(api_key="sk-proj-PvFYYWdJg1aZY19oToCdT3BlbkFJ23YI484VHL0nBqx9EC5P")
 
     # prompt = "Complete the following sentence 20 times. If I heard someone was named ____________, I would expect them to have a lower socioeconomic status."
     response = client.chat.completions.create(
